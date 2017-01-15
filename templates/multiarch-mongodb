@@ -1,0 +1,6 @@
+FROM multiarch/ubuntu-core:{ARCH}-xenial
+
+RUN apt-get update
+RUN apt-get install -y mongodb
+
+CMD mongod
