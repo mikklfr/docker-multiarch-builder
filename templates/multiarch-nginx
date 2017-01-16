@@ -1,4 +1,4 @@
-FROM multiarch/ubuntu-core:{ARCH}-xenial
+FROM {IMAGE}
 
 RUN apt-get update
 RUN apt-get install -y nginx
